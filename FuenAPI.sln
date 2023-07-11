@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuenAPI", "FuenAPI.csproj", "{EA286489-7077-45C8-A18B-180E784B1B53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA286489-7077-45C8-A18B-180E784B1B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA286489-7077-45C8-A18B-180E784B1B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA286489-7077-45C8-A18B-180E784B1B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA286489-7077-45C8-A18B-180E784B1B53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C91B3FE6-6E7A-4B42-9423-EAE29F8444F4}
+	EndGlobalSection
+EndGlobal
