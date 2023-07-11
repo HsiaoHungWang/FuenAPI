@@ -35,7 +35,7 @@ namespace FuenAPI.Controllers
                 CategoryName = c.CategoryName,
             }).ToListAsync();
             return categoriesDTO;
-          // return await _context.Categories.ToListAsync();
+            //return await _context.Categories.ToListAsync();
         }
 
         // GET: api/Categories/5

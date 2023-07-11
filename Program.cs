@@ -14,6 +14,12 @@ builder.Services.AddDbContext<NorthwindContext>(
     option => option.UseSqlServer(builder.Configuration.GetConnectionString("NorthwindConnection"))
     );
 
+//CORS ªº³]©w
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+});
+
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -26,6 +32,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
 
